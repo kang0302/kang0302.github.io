@@ -3,42 +3,84 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>TradingView Charts Index</title>
+  <title>Money Tree - TradingView Charts Index</title>
   <style>
     body {
-      font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
-      margin: 40px;
-      line-height: 1.6;
-      background-color: #f8f9fa;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      background-color: #f4f9f4;
+      color: #333;
     }
-    h1 {
-      margin-bottom: 8px;
-      color: #0b5bd3;
+    header {
+      background-color: #2e7d32; /* Money Tree 메인 그린 */
+      color: white;
+      text-align: center;
+      padding: 30px 20px;
+    }
+    header img {
+      height: 60px;
+      vertical-align: middle;
+    }
+    header h1 {
+      display: inline-block;
+      margin: 0 0 0 15px;
+      font-size: 28px;
+      vertical-align: middle;
+    }
+    main {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+    main h2 {
+      color: #2e7d32;
+      border-bottom: 2px solid #c8e6c9;
+      padding-bottom: 8px;
     }
     a {
       display: block;
-      margin: 8px 0;
-      text-decoration: none;
-      color: #0b5bd3;
+      margin: 12px 0;
+      padding: 12px 16px;
+      background-color: #e8f5e9;
+      border-radius: 6px;
+      color: #2e7d32;
       font-size: 18px;
+      text-decoration: none;
+      transition: background-color 0.2s ease;
     }
     a:hover {
-      text-decoration: underline;
-      color: #084298;
+      background-color: #c8e6c9;
     }
-    .note {
-      margin-top: 20px;
-      color: #666;
+    footer {
+      text-align: center;
+      font-size: 14px;
+      color: #777;
+      margin-top: 40px;
+      padding: 20px 0;
+      background-color: #f1f8f1;
     }
   </style>
 </head>
 <body>
-  <h1>📊 TradingView Charts Index</h1>
-  <a href="tv-lly.html" target="_blank">LLY Advanced Chart</a>
-  <a href="tv-nvo.html" target="_blank">NVO Advanced Chart</a>
-  <a href="tv-vktx.html" target="_blank">VKTX Advanced Chart</a>
-  <a href="tv-glp1-mini.html" target="_blank">Mini Overview (LLY / NVO / VKTX)</a>
-  <a href="tv-tape.html" target="_blank">Ticker Tape</a>
-  <p class="note">이 페이지를 GitHub Pages 루트에 두면 404가 사라지고, 각 차트 페이지로 이동할 수 있습니다.</p>
+
+  <header>
+    <!-- 로고 이미지는 GitHub Pages나 이미지 호스팅 경로로 변경 -->
+    <img src="https://upload.wikimedia.org/wikipedia/commons/5/5f/Tree_icon_green.svg" alt="Money Tree Logo">
+    <h1>Money Tree Charts</h1>
+  </header>
+
+  <main>
+    <h2>📊 TradingView 차트 모음</h2>
+    <a href="tv-lly.html" target="_blank">LLY Advanced Chart</a>
+    <a href="tv-nvo.html" target="_blank">NVO Advanced Chart</a>
+    <a href="tv-vktx.html" target="_blank">VKTX Advanced Chart</a>
+    <a href="tv-glp1-mini.html" target="_blank">Mini Overview (LLY / NVO / VKTX)</a>
+    <a href="tv-tape.html" target="_blank">Ticker Tape</a>
+  </main>
+
+  <footer>
+    © 2025 Money Tree. All rights reserved. | 시장과 투자의 맥락을 읽는 가장 똑똑한 방법.
+  </footer>
+
 </body>
 </html>
